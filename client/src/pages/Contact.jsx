@@ -1,10 +1,12 @@
 import React from "react";
 import GithubLogo from "../assets/images/github.png";
 import LinkedinLogo from "../assets/images/linkedin.png";
+import ContactForm from "../components/ContactForm.jsx";
 
 const Contact = () => {
   return (
     <div className="flex justify-center items-center flex-col p-[5%]">
+      <ContactForm />
       <h1 className="text-3xl md:text-4xl font-extrabold">Contact Us</h1>
       <div className="flex justify-center items-center p-[10%] ">
         <div className="flex items-center justify-center gap-8 flex-wrap">
